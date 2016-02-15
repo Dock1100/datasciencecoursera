@@ -42,4 +42,4 @@ The original data set is split into training and test sets where each partition 
 - Extract mean and standard deviation features. **get_mean_and_std** 
 - Replace activity names defined in `activity_labels.txt` in the original data folder. **get_named_activities** `values are hardcoded`
 - Create a tidy data set with the average of each variable for
-each activity and each subject. The tidy data set is saved to `result_file = "./data/tidy.csv"`.
+each activity and each subject. The tidy data set is saved to `result_file = "./data/tidy_data.txt"`.
