@@ -1,5 +1,5 @@
 data_directory = "./data"
-result_file = "./data/tidy.csv"
+result_file = "./data/tidy_data.txt"
 
 
 # concatenates file name with data_directory

@@ -14,8 +14,19 @@ The script requires packages "tools" and "plyr" (it will download them automatic
 
 ```
 data_directory = "./data"
-result_file = "./data/tidy.csv"
+result_file = "./data/tidy_data.txt"
 ```
+
+Variable list and descriptions
+------------------------------
+
+Variable name | Description
+--------------|------------
+merged        | contains merged data returned by get_prepared_data()
+mean_std      | contains mean and standard devalvation values, calculated by get_mean_and_std(arg), with passed argument x of merged data
+named_act     | contains data frame with named activites
+combined      | contains concatecated data set of mean, standatd devalvation, named activites, merged subjects
+tidy         | contains tidy data
 
 # The original data set
 
